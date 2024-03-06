@@ -1,6 +1,14 @@
-<style>
-leadership-header {
-    background-image: none;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header-content {
+    background-image: url(/images/leadershipheaderbackgroundpic.jpg);
+    background-size: auto;
+    background-position: center;
+    color: white;
+    height: 600px;
 }
 ul {
   list-style-type: none;
@@ -26,4 +34,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-</style>
