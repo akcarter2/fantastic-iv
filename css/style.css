@@ -9,7 +9,7 @@
 /* leadership-style-notes */
 .leadership-content {
   background-image: url(/images/leadershipheaderbackgroundpic.jpg);
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   color: #00a3ff;
   height: 600px;
@@ -36,11 +36,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
 li {
   float: left;
+
 }
 
 li a {
