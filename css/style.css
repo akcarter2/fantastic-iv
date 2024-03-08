@@ -9,11 +9,16 @@
 /* leadership-style-notes */
 .leadership-content {
   background-image: url(/images/leadershipheaderbackgroundpic.jpg);
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   color: #00a3ff;
   height: 600px;
   text-align: center;
+}
+#leadership-footer {
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
 }
 /* business-hoursn-notes */
 .business-content {
@@ -26,27 +31,37 @@
 /* end-of-business-hours */
 
 
+
 .manager, .junior, .ux, .developer {
   float: left;
-  width: 300px;
-  height: 525px;
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  margin: 25px;
 
+}
+/* end of leadership-style-notes */
+
+/* navbar-notes */
+.bar {
+  background-color: transparent;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
 li {
   float: left;
+
 }
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -54,5 +69,5 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: transparent;
 }
