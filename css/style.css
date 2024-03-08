@@ -9,29 +9,39 @@
 /* leadership-style-notes */
 .leadership-content {
   background-image: url(/images/leadershipheaderbackgroundpic.jpg);
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   color: #00a3ff;
   height: 600px;
   text-align: center;
+}
+#leadership-footer {
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
 
 }
+
 .manager, .junior, .ux, .developer {
   float: left;
-  width: 300px;
-  height: 525px;
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  margin: 25px;
 
 }
+/* end of leadership-style-notes */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
 li {
   float: left;
+
 }
 
 li a {
