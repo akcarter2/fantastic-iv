@@ -3,23 +3,6 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.contact-content {
-  background-image: url();
-}
-/* leadership-style-notes */
-.leadership-content {
-  background-image: url(/images/leadershipheaderbackgroundpic.jpg);
-  background-size: cover;
-  background-position: center;
-  color: #00a3ff;
-  height: 600px;
-  text-align: center;
-}
-#leadership-footer {
-  text-align: center;
-  padding: 15px;
-  margin: 0px;
-}
 /* business-hoursn-notes */
 .business-content {
   background-image: url(/images/fantastic-four.jpg);
@@ -32,6 +15,22 @@
 /* end-of-business-hours */
 
 
+/* leadership-style-notes */
+.leadership-content {
+    color: #00a3ff;
+  height: 600px;
+  text-align: center;
+}
+.leadership-header {
+  background-image: url(/images/leadershipheaderbackgroundpic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#leadership-footer {
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
+}
 
 .manager, .junior, .ux, .developer {
   float: left;
@@ -58,13 +57,13 @@ ul {
 }
 
 li {
-  float: left;
+  
 
 }
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -73,4 +72,8 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: transparent;
+}
+/* contact-notes */
+.contact-content {
+  background-image: url();
 }
