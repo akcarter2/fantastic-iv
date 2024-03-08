@@ -6,13 +6,19 @@
 .contact-content {
   background-image: url();
 }
-
-.header-content {
+/* leadership-style-notes */
+.leadership-content {
   background-image: url(/images/leadershipheaderbackgroundpic.jpg);
   background-size: auto;
   background-position: center;
   color: white;
   height: 600px;
+}
+.manager, .junior, .ux, .developer {
+  float: left;
+  width: 300px;
+  height: 525px;
+
 }
 ul {
   list-style-type: none;
