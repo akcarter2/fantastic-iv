@@ -14,8 +14,18 @@
   color: #00a3ff;
   height: 600px;
   text-align: center;
-
 }
+/* business-hoursn-notes */
+.business-content {
+  background-image: url(/images/fantastic-four.jpg);
+  background-size: cover;
+  background-position: center;
+  color:black;
+  height: 600px;
+  text-align: center;} 
+/* end-of-business-hours */
+
+
 .manager, .junior, .ux, .developer {
   float: left;
   width: 300px;
