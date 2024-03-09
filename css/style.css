@@ -8,21 +8,23 @@
   background-image: url(/images/fantastic-four.jpg);
   background-size: cover;
   background-position: center;
-  color:black;
+  color: black;
   height: 600px;
-  text-align: center;}
-  .logo {} 
+  text-align: center;
+}
+.logo {
+}
 /* end-of-business-hours */
-
 
 /* leadership-style-notes */
 .leadership-content {
-    color: #00a3ff;
+  color: #00a3ff;
   height: 600px;
   text-align: center;
 }
 .leadership-header {
-  background-image: url(/images/leadershipheaderbackgroundpic.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/leadershipheaderbackgroundpic.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -32,7 +34,10 @@
   margin: 0px;
 }
 
-.manager, .junior, .ux, .developer {
+.manager,
+.junior,
+.ux,
+.developer {
   float: left;
   width: 250px;
   height: 400px;
@@ -40,7 +45,6 @@
   margin: 25px;
   border: 2px solid black;
   border-radius: 5px;
-
 }
 /* end of leadership-style-notes */
 
@@ -57,8 +61,6 @@ ul {
 }
 
 li {
-  
-
 }
 
 li a {
