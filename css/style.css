@@ -4,25 +4,62 @@
   box-sizing: border-box;
 }
 
+/* end-of-business-hours */
 
-.header-content {
-  background-image: url(/images/leadershipheaderbackgroundpic.jpg);
-  background-size: auto;
-  background-position: center;
-  color: white;
+/* leadership-style-notes */
+.leadership-content {
+  color: #00a3ff;
   height: 600px;
+  text-align: center;
+  text-shadow: 2px 2px whitesmoke;
+}
+.leadership-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/leadershipheaderbackgroundpic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#leadership-footer {
+  text-align: center;
+  padding: 15px;
+  margin: 0px;
+}
+
+.manager,
+.junior,
+.ux,
+.developer {
+  float: left;
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin: 30px;
+  border: 10px solid slategrey;
+  border-style: outset;
+  border-radius: 5px;
+  
+}
+/* end of leadership-style-notes */
+
+/* navbar-notes */
+.bar {
+  background-color: transparent;
+  text-align: left;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
-li {
-  float: left;
+li { 
+float:left;
 }
+
 
 li a {
   display: block;
@@ -34,6 +71,10 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  color: #00a3ff;
+}
+/* contact-notes */
+.contact-content {
+  background-image: url();
 }
 
