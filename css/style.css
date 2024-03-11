@@ -57,7 +57,7 @@
 /* end of leadership-style-notes */
 
 /* navbar-notes */
-.bar {
+.bar a:hover {
   background-color: transparent;
   text-align: left;
 }
@@ -80,6 +80,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
 /* Change the link color to #111 (black) on hover */
