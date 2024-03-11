@@ -34,8 +34,9 @@
 }
 #leadership-footer {
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   margin: 0px;
+  background-image: linear-gradient(to top, #00a3ff, white);
 }
 
 .manager,
@@ -46,12 +47,14 @@
   width: 250px;
   height: 400px;
   padding: 10px;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin: 30px;
   border: 10px solid slategrey;
   border-style: outset;
   border-radius: 5px;
+  background-image: linear-gradient(#344CCC, white);
+  
   
 }
 /* end of leadership-style-notes */
