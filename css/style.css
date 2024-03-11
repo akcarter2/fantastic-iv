@@ -3,9 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.contact-content {
-  background-image: ;
-}
+
 
 .header-content {
   background-image: url(/images/leadershipheaderbackgroundpic.jpg);
@@ -38,3 +36,4 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
