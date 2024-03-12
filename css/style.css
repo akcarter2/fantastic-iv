@@ -42,8 +42,9 @@
 }
 #leadership-footer {
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   margin: 0px;
+  background-image: linear-gradient(to top, #00a3ff, white);
 }
 
 .manager,
@@ -54,18 +55,20 @@
   width: 250px;
   height: 400px;
   padding: 10px;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin: 30px;
   border: 10px solid slategrey;
   border-style: outset;
   border-radius: 5px;
+  background-image: linear-gradient(#344CCC, white);
+  
   
 }
 /* end of leadership-style-notes */
 
 /* navbar-notes */
-.bar {
+.bar a:hover {
   background-color: transparent;
   text-align: left;
 }
@@ -88,6 +91,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
 /* Change the link color to #111 (black) on hover */
