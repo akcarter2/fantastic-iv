@@ -3,9 +3,13 @@
   margin: 0px;
   box-sizing: border-box;
 }
+/* index-notes */
+
+
 /* business-hoursn-notes */
 .business-content {
-  background-image: url(/images/fantastic-four.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url(/images/fantastic-four.jpg);
   background-size: cover;
   background-position: center;
   color: black;
