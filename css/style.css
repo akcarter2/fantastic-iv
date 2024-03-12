@@ -62,37 +62,21 @@
 /* navbar-notes */
 .bar  {
   background-color: transparent;
-  text-align: left;
-}
-ul {
-  list-style-type: none;
-  margin: 1px
-  padding: 2px;
-  overflow: hidden;
-  background-color: transparent;
-}
-.logo {
-  float: right;
-}
-li { 
-display: inline;
+  }
+  div {
+    text-align: center;
+  }
 
-}
-.nav {
-  
-  
-}
-
+li { display: inline;}
 li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  
+  font-size: 17px;  
 }
 
-/* Change the link color to (#00a3ff) on hover */
+/* Changes the link color on hover */
 li a:hover {
   color: #00a3ff;
   font-size: 20px;
