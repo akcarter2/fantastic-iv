@@ -69,10 +69,6 @@
   background-color: transparent;
   cursor: pointer;
   }
-  div {
-    text-align: center;
-  }
-
 li { 
   display: inline;
 }
@@ -82,6 +78,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;  
+}
+ul {
+  text-align: center;
 }
 
 /* Changes the link color on hover */
