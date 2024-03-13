@@ -5,25 +5,60 @@
 }
 /* index-notes */
 
-
-/* business-hoursn-notes */
+/* business-hours-notes */
 .business-content {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url(/images/fantastic-four.jpg);
-  background-size: cover;
-  background-position: center;
-  color: black;
+  color:#00a3ff;
   height: 600px;
   text-align: center;
-  text-shadow: 1px 1px;
+  text-shadow: 1px 1px whitesmoke  ;
 }
-.h1 {
-  background-color:rgb(163, 230, 252); 
-  text-align: center;
-  text-decoration-color: rgb(126, 192, 214);
-  text-shadow: 1px;
+.business-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/fantastic-four.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.business-section-1 {
+  border: 0px;
+  background-color:white;
+  background-size: auto;
+  width: 100%;
+  height: 600px;
+  margin: 20px;
+  text-align:auto;
+  text-shadow: 1px 1px whitesmoke;
+  text-emphasis-color: #00a3ff
+  ;
   
 }
+.business-p {
+  float:right;
+  font-family: arial, sans-serif;
+}
+table{
+  float: left;
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#business-footer {
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  background-image: linear-gradient(to top, #00a3ff, white);
+}
+
 
 /* end-of-business-hours */
 
@@ -61,21 +96,20 @@
   border: 10px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  background-image: linear-gradient(#344CCC, white);
-  
-  
+  background-image: linear-gradient(#344ccc, white);
 }
 /* end of leadership-style-notes */
 
 /* navbar-notes */
 .bar  {
   background-color: transparent;
-  }
-  div {
-    text-align: center;
-  }
+}
 
-li { display: inline;}
+li { 
+float:left;
+}
+
+
 li a {
   color: white;
   text-align: center;
