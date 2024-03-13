@@ -61,21 +61,32 @@
   border: 10px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  background-image: linear-gradient(#344CCC, white);
-  
-  
+  background-image: linear-gradient(#344CCC, white);  
+}
+.button {
+  border: 1px solid black;
+  color:#00a3ff;
+  padding: 2px 3px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 /* end of leadership-style-notes */
 
 /* navbar-notes */
 .bar  {
   background-color: transparent;
+  cursor: pointer;
   }
   div {
     text-align: center;
   }
 
-li { display: inline;}
+li { 
+  display: inline;
+}
 li a {
   color: white;
   text-align: center;
