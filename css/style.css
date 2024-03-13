@@ -24,11 +24,10 @@
   text-shadow: 1px 1px;
 }
 .h1 {
-  background-color:rgb(163, 230, 252); 
+  background-color: rgb(163, 230, 252);
   text-align: center;
   text-decoration-color: rgb(126, 192, 214);
   text-shadow: 1px;
-  
 }
 
 /* end-of-business-hours */
@@ -47,25 +46,23 @@
   background-size: cover;
   background-position: center;
 }
-#leadership-footer {
-  text-align: center;
-  padding: 20px;
-  margin: 0px;
-  background-image: linear-gradient(to top, #00a3ff, white);
-}
-h2, p {
-  text-align: center;
-}
-#leadership-section {
-  margin-left: 25%;
-  margin-right: 25%;
+
+.card {
   float: left;
-  border: 10px solid slategrey;
+  border: 8px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  background-image: linear-gradient(#344CCC, white)
+  background-image: linear-gradient(#344ccc, white);
+  margin: 3px 11px;
+  padding: 3px;
 }
-
+.button {
+  padding: 2px;
+  cursor: pointer;
+}
+button a:hover {
+  color: #00a3ff;
+}
 .manager,
 .junior,
 .ux,
@@ -74,28 +71,30 @@ h2, p {
   width: 250px;
   height: 300px;
   padding: 10px;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin: 30px;
-  border: 10px solid slategrey;
+  margin: 5px;
+  border: 5px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  background-image: linear-gradient(#344CCC, white);
-  
-  
+}
+#footer {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  background-image: linear-gradient(to top, #00a3ff, white);
+  clear: left;
 }
 /* end of leadership-style-notes */
 
 /* navbar-notes */
-.bar  {
+.bar {
   background-color: transparent;
-  cursor: pointer;  
-  }
-  div {
-    text-align: center;
-  }
+  cursor: pointer;
+}
+div {
+  text-align: center;
+}
 
-li { 
+li {
   display: inline;
 }
 li a {
@@ -103,7 +102,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;  
+  font-size: 17px;
 }
 ul {
   text-align: center;
@@ -113,7 +112,6 @@ ul {
 li a:hover {
   color: #00a3ff;
   font-size: 20px;
-  
 }
 /* contact-notes */
 .contact-content {
