@@ -5,17 +5,23 @@
 }
 /* index-notes */
 
-
-/* business-hoursn-notes */
+/* business-hours-notes */
 .business-content {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-  url(/images/fantastic-four.jpg);
-  background-size: cover;
-  background-position: center;
   color: #00a3ff;
   height: 600px;
   text-align: center;
   text-shadow: 2px 2px whitesmoke;
+  margin-top: 25px;
+}
+.business-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/fantastic-four.jpg");
+  background-size: cover;
+  background-position: center;
+  color: black;
+  height: 600px;
+  text-align: center;
+  text-shadow: 1px 1px;
 }
 .h1 {
   background-color:rgb(163, 230, 252); 
@@ -74,17 +80,9 @@ h2, p {
   border: 10px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  background-image: linear-gradient(#344CCC, white);  
-}
-.button {
-  border: 1px solid black;
-  color:#00a3ff;
-  padding: 2px 3px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  background-image: linear-gradient(#344CCC, white);
+  
+  
 }
 /* end of leadership-style-notes */
 
@@ -92,6 +90,9 @@ h2, p {
 .bar  {
   background-color: transparent;
   cursor: pointer;  
+  }
+  div {
+    text-align: center;
   }
 
 li { 
