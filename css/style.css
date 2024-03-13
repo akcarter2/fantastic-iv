@@ -15,6 +15,14 @@
   color: black;
   height: 600px;
   text-align: center;
+  text-shadow: 1px 1px;
+}
+.h1 {
+  background-color:rgb(163, 230, 252); 
+  text-align: center;
+  text-decoration-color: rgb(126, 192, 214);
+  text-shadow: 1px;
+  
 }
 
 /* end-of-business-hours */
