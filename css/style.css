@@ -68,35 +68,27 @@
 /* end of leadership-style-notes */
 
 /* navbar-notes */
-.bar a:hover {
+.bar  {
   background-color: transparent;
-  text-align: left;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: transparent;
-}
+  }
+  div {
+    text-align: center;
+  }
 
-li { 
-float:left;
-}
-
-
+li { display: inline;}
 li a {
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 17px;  
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Changes the link color on hover */
 li a:hover {
   color: #00a3ff;
+  font-size: 20px;
+  
 }
 /* contact-notes */
 .contact-content {
