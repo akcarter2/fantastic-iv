@@ -12,10 +12,10 @@
   url(/images/fantastic-four.jpg);
   background-size: cover;
   background-position: center;
-  color: black;
+  color: #00a3ff;
   height: 600px;
   text-align: center;
-  text-shadow: 1px 1px;
+  text-shadow: 2px 2px whitesmoke;
 }
 .h1 {
   background-color:rgb(163, 230, 252); 
@@ -33,6 +33,7 @@
   height: 600px;
   text-align: center;
   text-shadow: 2px 2px whitesmoke;
+  margin-top: 25px;
 }
 #leadership-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -46,6 +47,18 @@
   margin: 0px;
   background-image: linear-gradient(to top, #00a3ff, white);
 }
+h2, p {
+  text-align: center;
+}
+#leadership-section {
+  margin-left: 25%;
+  margin-right: 25%;
+  float: left;
+  border: 10px solid slategrey;
+  border-style: outset;
+  border-radius: 5px;
+  background-image: linear-gradient(#344CCC, white)
+}
 
 .manager,
 .junior,
@@ -53,7 +66,7 @@
 .developer {
   float: left;
   width: 250px;
-  height: 400px;
+  height: 300px;
   padding: 10px;
   margin-left: 25%;
   margin-right: 25%;
@@ -78,10 +91,7 @@
 /* navbar-notes */
 .bar  {
   background-color: transparent;
-  cursor: pointer;
-  }
-  div {
-    text-align: center;
+  cursor: pointer;  
   }
 
 li { 
@@ -93,6 +103,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;  
+}
+ul {
+  text-align: center;
 }
 
 /* Changes the link color on hover */
