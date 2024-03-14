@@ -15,7 +15,7 @@
 }
 .business-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/FantasticFour-background.webp");
+    url("FantasticFour-background.webp");
   background-size: cover;
   background-position: center;
 }
