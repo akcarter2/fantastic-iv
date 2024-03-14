@@ -60,7 +60,9 @@ tr:nth-child(even) {
 #footer {
   text-align: center;
   padding: 20px;
+  margin: 0;
   background-image: linear-gradient(to top, #00a3ff, white);
+  clear: left;
 }
 /* End of Footer*/
 
@@ -69,7 +71,7 @@ tr:nth-child(even) {
   color: #00a3ff;
   height: 500px;
   text-align: center;
-  text-shadow: 2px 2px whitesmoke;
+  text-shadow: 1px 1px whitesmoke;
   margin-top: 25px;
 }
 #leadership-header {
@@ -87,6 +89,7 @@ tr:nth-child(even) {
   background-image: linear-gradient(#344ccc, white);
   margin: 3px 11px;
   padding: 3px;
+  text-align: center;
 }
 .button {
   font-size: medium;
@@ -144,23 +147,5 @@ li a:hover {
 
 /* contact-notes */
 .contact-content {
-  background-image: url("/images/Fanash.png");
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-}
-
-form {
-  input[type="text"] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    color: black;
-    box-shadow: white;
-  }
-}
-
-#contact-body {
-  background-color: white
+  background-image: url();
 }
