@@ -3,13 +3,14 @@
   margin: 0px;
   box-sizing: border-box;
 }
+/* index-notes */
 
-/* business-hoursn-notes */
+/* business-hours-notes */
 .business-content {
   color: #00a3ff;
   height: 600px;
   text-align: center;
-  text-shadow: 2px 2px whitesmoke;
+  text-shadow: 1px 1px whitesmoke;
   margin-top: 25px;
 }
 .business-header {
@@ -23,13 +24,34 @@
 .about-hours {
   height: 500px;
   text-align: center;
-  text-shadow: 1px 1px;
+  padding: 40px;
 }
-.h1 {
-  background-color: rgb(163, 230, 252);
-  text-align: center;
-  text-decoration-color: rgb(126, 192, 214);
-  text-shadow: 1px;
+
+table {
+  background-color: lightblue;
+  padding: 50px;
+  margin: 20px;
+  float: left;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  border: 0 solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.colomn {
+  background-color: #00a3ff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.business-p {
+  padding: 25px;
 }
 /* end-of-business-hours */
 
@@ -139,4 +161,3 @@ form {
 }
 
 body {background-color: white}
-
