@@ -3,6 +3,15 @@
   margin: 0px;
   box-sizing: border-box;
 }
+/* business-hoursn-notes */
+.business-content {
+  background-image: url(/images/fantastic-four.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  height: 600px;
+  text-align: center;
+}
 
 /* end-of-business-hours */
 
@@ -12,66 +21,80 @@
   height: 600px;
   text-align: center;
   text-shadow: 2px 2px whitesmoke;
+  margin-top: 25px;
 }
-.leadership-header {
+#leadership-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(/images/leadershipheaderbackgroundpic.jpg);
   background-size: cover;
   background-position: center;
 }
-#leadership-footer {
-  text-align: center;
-  padding: 15px;
-  margin: 0px;
-}
 
+.card {
+  float: left;
+  border: 8px solid slategrey;
+  border-style: outset;
+  border-radius: 5px;
+  background-image: linear-gradient(#344ccc, white);
+  margin: 3px 11px;
+  padding: 3px;
+}
+.button {
+  padding: 2px;
+  cursor: pointer;
+}
+button a:hover {
+  color: #00a3ff;
+}
 .manager,
 .junior,
 .ux,
 .developer {
   float: left;
   width: 250px;
-  height: 400px;
+  height: 300px;
   padding: 10px;
-  margin-left: 50%;
-  margin-right: 50%;
-  margin: 30px;
-  border: 10px solid slategrey;
+  margin: 5px;
+  border: 5px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  
+}
+#footer {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  background-image: linear-gradient(to top, #00a3ff, white);
+  clear: left;
 }
 /* end of leadership-style-notes */
 
 /* navbar-notes */
 .bar {
   background-color: transparent;
-  text-align: left;
+  cursor: pointer;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: transparent;
+div {
+  text-align: center;
 }
 
-li { 
-float:left;
+li {
+  display: inline;
 }
-
-
 li a {
-  display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+}
+ul {
+  text-align: center;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Changes the link color on hover */
 li a:hover {
   color: #00a3ff;
+  font-size: 20px;
 }
 /* contact-notes */
 .contact-content {
