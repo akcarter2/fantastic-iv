@@ -18,19 +18,51 @@
     url("/images/FantasticFour-background.webp");
   background-size: cover;
   background-position: center;
-  color: black;
-  height: 600px;
-  text-align: center;
-  text-shadow: 1px 1px;
-}
-.h1 {
-  background-color: rgb(163, 230, 252);
-  text-align: center;
-  text-decoration-color: rgb(126, 192, 214);
-  text-shadow: 1px;
 }
 
+.about-hours {
+  height: 500px;
+  text-align: center;
+  padding: 40px;
+}
+
+table {
+  background-color:lightblue;
+  padding: 50px;
+  margin:20px;
+  float: left;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  border: 0 solid #dddddd;
+  text-align: left;
+  padding: 8px;
+
+}
+.colomn {
+  background-color: #00a3ff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.business-p {
+  padding: 25px;
+}
 /* end-of-business-hours */
+
+/* Footer style section*/
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to top, #00a3ff, white);
+}
+/* End of Footer*/
+
 
 /* leadership-style-notes */
 .leadership-content {
@@ -81,13 +113,9 @@
   border: 5px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-}
-#footer {
-  text-align: center;
-  padding: 35px;
-  margin: 0px;
-  background-image: linear-gradient(to top, #00a3ff, white);
-  clear: left;
+  background-image: linear-gradient(#344CCC, white);
+  
+  
 }
 /* end of leadership-style-notes */
 
@@ -95,16 +123,8 @@
 .bar {
   background-color: transparent;
   cursor: pointer;
-}
-.logo {
-  padding: auto;
-
-}
-div {
-  text-align: center;
-}
-
-li {
+  }
+li { 
   display: inline;
 }
 li a {
@@ -123,6 +143,8 @@ li a:hover {
   color: #00a3ff;
   font-size: 20px;
 }
+/* End of navbar-notes*/
+
 /* contact-notes */
 .contact-content {
   background-image: url();
