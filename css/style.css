@@ -15,8 +15,8 @@
 }
 .business-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/image\ copy.png");
-  background-size: contain;
+    url("/images/background-2.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -28,9 +28,9 @@
 }
 
 table {
-  background-color:lightblue;
+  background-color: lightblue;
   padding: 50px;
-  margin:20px;
+  margin: 20px;
   float: left;
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -42,7 +42,6 @@ th {
   border: 0 solid #dddddd;
   text-align: left;
   padding: 8px;
-
 }
 .colomn {
   background-color: #00a3ff;
@@ -63,7 +62,6 @@ tr:nth-child(even) {
   background-image: linear-gradient(to top, #00a3ff, white);
 }
 /* End of Footer*/
-
 
 /* leadership-style-notes */
 .leadership-content {
@@ -100,7 +98,6 @@ tr:nth-child(even) {
   background-color: black;
   color: #00a3ff;
   text-shadow: 1px 1px whitesmoke;
-  
 }
 .manager,
 .junior,
@@ -114,9 +111,7 @@ tr:nth-child(even) {
   border: 5px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  background-image: linear-gradient(#344CCC, white);
-  
-  
+  background-image: linear-gradient(#344ccc, white);
 }
 /* end of leadership-style-notes */
 
@@ -124,8 +119,8 @@ tr:nth-child(even) {
 .bar {
   background-color: transparent;
   cursor: pointer;
-  }
-li { 
+}
+li {
   display: inline;
 }
 li a {
