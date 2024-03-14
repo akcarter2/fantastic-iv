@@ -35,7 +35,7 @@
 /* leadership-style-notes */
 .leadership-content {
   color: #00a3ff;
-  height: 600px;
+  height: 500px;
   text-align: center;
   text-shadow: 2px 2px whitesmoke;
   margin-top: 25px;
@@ -57,18 +57,24 @@
   padding: 3px;
 }
 .button {
+  font-size: medium;
+  color: white;
+  text-shadow: 1px 1px #344ccc;
   padding: 2px;
   cursor: pointer;
 }
-button a:hover {
+.button:hover {
+  background-color: black;
   color: #00a3ff;
+  text-shadow: 1px 1px whitesmoke;
+  
 }
 .manager,
 .junior,
 .ux,
 .developer {
   float: left;
-  width: 250px;
+  width: 250;
   height: 300px;
   padding: 10px;
   margin: 5px;
@@ -78,7 +84,7 @@ button a:hover {
 }
 #footer {
   text-align: center;
-  padding: 10px;
+  padding: 35px;
   margin: 0px;
   background-image: linear-gradient(to top, #00a3ff, white);
   clear: left;
@@ -89,6 +95,10 @@ button a:hover {
 .bar {
   background-color: transparent;
   cursor: pointer;
+}
+.logo {
+  padding: auto;
+
 }
 div {
   text-align: center;
