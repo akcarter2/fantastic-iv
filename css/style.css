@@ -15,9 +15,10 @@
 }
 .business-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("FantasticFour-background.webp");
+    url("/images/background-2.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .about-hours {
@@ -27,9 +28,9 @@
 }
 
 table {
-  background-color:lightblue;
+  background-color: lightblue;
   padding: 50px;
-  margin:20px;
+  margin: 20px;
   float: left;
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -41,7 +42,6 @@ th {
   border: 0 solid #dddddd;
   text-align: left;
   padding: 8px;
-
 }
 .colomn {
   background-color: #00a3ff;
@@ -59,17 +59,18 @@ tr:nth-child(even) {
 #footer {
   text-align: center;
   padding: 20px;
+  margin: 0;
   background-image: linear-gradient(to top, #00a3ff, white);
+  clear: left;
 }
 /* End of Footer*/
-
 
 /* leadership-style-notes */
 .leadership-content {
   color: #00a3ff;
   height: 500px;
   text-align: center;
-  text-shadow: 2px 2px whitesmoke;
+  text-shadow: 1px 1px whitesmoke;
   margin-top: 25px;
 }
 #leadership-header {
@@ -87,6 +88,7 @@ tr:nth-child(even) {
   background-image: linear-gradient(#344ccc, white);
   margin: 3px 11px;
   padding: 3px;
+  text-align: center;
 }
 .button {
   font-size: medium;
@@ -99,7 +101,6 @@ tr:nth-child(even) {
   background-color: black;
   color: #00a3ff;
   text-shadow: 1px 1px whitesmoke;
-  
 }
 .manager,
 .junior,
@@ -113,9 +114,7 @@ tr:nth-child(even) {
   border: 5px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-  background-image: linear-gradient(#344CCC, white);
-  
-  
+  background-image: linear-gradient(#344ccc, white);
 }
 /* end of leadership-style-notes */
 
@@ -123,8 +122,8 @@ tr:nth-child(even) {
 .bar {
   background-color: transparent;
   cursor: pointer;
-  }
-li { 
+}
+li {
   display: inline;
 }
 li a {
@@ -147,5 +146,21 @@ li a:hover {
 
 /* contact-notes */
 .contact-content {
-  background-image: url();
+  background-image: url("/images/Fanash.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 }
+
+form {
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    box-shadow: white;
+  }
+}
+
+body {background-color: white}
