@@ -75,8 +75,8 @@ tr:nth-child(even) {
   margin-top: 25px;
 }
 #leadership-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/leadershipheaderbackgroundpic.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://images.alphacoders.com/112/1125201.jpg);
   background-size: cover;
   background-position: center;
 }
