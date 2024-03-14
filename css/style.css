@@ -57,11 +57,17 @@
   padding: 3px;
 }
 .button {
+  font-size: medium;
+  color: white;
+  text-shadow: 1px 1px #344ccc;
   padding: 2px;
   cursor: pointer;
 }
-button a:hover {
+.button:hover {
+  background-color: black;
   color: #00a3ff;
+  text-shadow: 1px 1px whitesmoke;
+  
 }
 .manager,
 .junior,
