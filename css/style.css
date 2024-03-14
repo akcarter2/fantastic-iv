@@ -6,20 +6,45 @@
 
 /* business-hoursn-notes */
 .business-content {
-  background-image: url(/images/fantastic-four.jpg);
-  background-size: cover;
-  background-position: center;
-  color: black;
+  color: #00a3ff;
   height: 600px;
   text-align: center;
+  text-shadow: 2px 2px whitesmoke;
+  margin-top: 25px;
+}
+.business-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/background-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+.about-hours {
+  height: 500px;
+  text-align: center;
+  text-shadow: 1px 1px;
+}
+.h1 {
+  background-color: rgb(163, 230, 252);
+  text-align: center;
+  text-decoration-color: rgb(126, 192, 214);
+  text-shadow: 1px;
+}
 /* end-of-business-hours */
+
+/* Footer style section*/
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to top, #00a3ff, white);
+}
+/* End of Footer*/
 
 /* leadership-style-notes */
 .leadership-content {
   color: #00a3ff;
-  height: 600px;
+  height: 500px;
   text-align: center;
   text-shadow: 2px 2px whitesmoke;
   margin-top: 25px;
@@ -41,31 +66,30 @@
   padding: 3px;
 }
 .button {
+  font-size: medium;
+  color: white;
+  text-shadow: 1px 1px #344ccc;
   padding: 2px;
   cursor: pointer;
 }
-button a:hover {
+.button:hover {
+  background-color: black;
   color: #00a3ff;
+  text-shadow: 1px 1px whitesmoke;
 }
 .manager,
 .junior,
 .ux,
 .developer {
   float: left;
-  width: 250px;
+  width: 250;
   height: 300px;
   padding: 10px;
   margin: 5px;
   border: 5px solid slategrey;
   border-style: outset;
   border-radius: 5px;
-}
-#footer {
-  text-align: center;
-  padding: 10px;
-  margin: 0px;
-  background-image: linear-gradient(to top, #00a3ff, white);
-  clear: left;
+  background-image: linear-gradient(#344ccc, white);
 }
 /* end of leadership-style-notes */
 
@@ -74,10 +98,6 @@ button a:hover {
   background-color: transparent;
   cursor: pointer;
 }
-div {
-  text-align: center;
-}
-
 li {
   display: inline;
 }
@@ -97,6 +117,8 @@ li a:hover {
   color: #00a3ff;
   font-size: 20px;
 }
+/* End of navbar-notes*/
+
 /* contact-notes */
 .contact-content {
   background-image: url("/images/Fanash.png");
