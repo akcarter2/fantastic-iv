@@ -147,11 +147,10 @@ li a:hover {
 
 /* contact-notes */
 #contact-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/Fanash.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/fanashhh.png);
   background-size: cover;
   background-position: center;
-  height: 500px;
 }
 .contact-content {
   color: #00a3ff;
@@ -207,3 +206,7 @@ form {
     }
 
 #contact-body {background-color: white}
+
+h1, p {
+  text-align: center;
+}
