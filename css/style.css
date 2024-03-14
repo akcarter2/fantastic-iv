@@ -1,4 +1,5 @@
 * {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -146,21 +147,5 @@ li a:hover {
 
 /* contact-notes */
 .contact-content {
-  background-image: url("/images/Fanash.png");
-  background-size: cover;
-  background-position: center;
-  height: 500px;
+  background-image: url();
 }
-
-form {
-  input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    color: black;
-    box-shadow: white;
-  }
-}
-
-#contact-body {background-color: white}
