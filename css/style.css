@@ -15,7 +15,7 @@
 }
 .business-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/fantastic-four.jpg");
+    url("/images/");
   background-size: cover;
   background-position: center;
 }
@@ -27,6 +27,7 @@
 }
 
 table {
+  background-color:lightblue;
   padding: 50px;
   margin:20px;
   float: left;
@@ -37,7 +38,7 @@ table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  border: 0 solid #dddddd;
   text-align: left;
   padding: 8px;
 
