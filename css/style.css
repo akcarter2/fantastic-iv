@@ -3,6 +3,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
 /* business-hoursn-notes */
 .business-content {
   background-image: url(/images/fantastic-four.jpg);
@@ -98,6 +99,22 @@ li a:hover {
 }
 /* contact-notes */
 .contact-content {
-  background-image: url();
+  background-image: url("/images/Fanash.png");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 }
+
+form {
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    box-shadow: white;
+  }
+}
+
+body {background-color: white}
 
