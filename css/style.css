@@ -96,6 +96,10 @@
   background-color: transparent;
   cursor: pointer;
 }
+.logo {
+  padding: auto;
+
+}
 div {
   text-align: center;
 }
