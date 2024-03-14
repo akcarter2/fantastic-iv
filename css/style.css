@@ -146,24 +146,64 @@ li a:hover {
 /* End of navbar-notes*/
 
 /* contact-notes */
-.contact-content {
-  background-image: url("/images/Fanash.png");
+#contact-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/Fanash.png);
   background-size: cover;
   background-position: center;
   height: 500px;
 }
+.contact-content {
+  color: #00a3ff;
+  height: 500px;
+  text-align: center;
+  text-shadow: 1px 1px whitesmoke;
+  margin-top: 25px;
+}
 
+.form-div {
+  border: 15 px black;
+  border-radius: 5px;
+  background-color: gainsboro;
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  
+}
 form {
-  input[type="text"] {
+  input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     color: black;
-    box-shadow: white;
-  }
-}
+    box-shadow: white; }
 
-#contact-body {
-  background-color: white;
-}
+    input[type=text], textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: black;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 0;
+    }
+    
+    input[type=submit]:hover {
+      background-color: white;
+    }
+
+#contact-body {background-color: white}
