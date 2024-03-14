@@ -4,25 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/images/logo.webp" type="image/x-icon">
     <title>Contact Us</title>
   </head>
-  <body>
+  <body id="contact-body">
     <!--header-->
     <header class="contact-header">
       <!--navbar-->
-      <nav>
-        <ul>
-          <li><a href="#Lead">Leadership</a></li>
-          <li><a href="#Hours">Business Hours</a></li>
-          <li><a href="#Contact">Contact Us</a></li>
-          <li><a href="#Who">Who We Are</a></li>
+      <nav class="navbar">
+        <ul> 
+          <li>
+            <a class="logo" href="/index.html" > <img src="/images/logo.webp" alt="fantastic-4-logo" width="65px"
+              height="55px"> </a>
+              </li>
+              <li><a class="bar" href="/index.html">Who We Are</a></li>
+              <li><a class="bar" href="services">Services</a></li>
+              <li><a class="bar" href="/html/hour.html">Business Hours</a></li>
+              <li><a class="bar" href="leadership.html">Leadership</a></li>
+              <li><a class="bar" href="contact.html"> Contact US</a></li>
+              </ul>
         </ul>
       </nav>
       <div class="contact-content">
-        <h1>Email Us</h1>
-        <p>How to contact us</p>
+        <h1></h1>
+        <p>Get In Touch</p>
       </div>
     </header>
     <!--contact-section-->
+    <section class="email-section">
+    <h1>Email Us</h1>
+
+    <p>
+      Get in touch with us today! Our dedicated team is here to assist you with
+      any inquiries, feedback, or support you may need. Contact us now for
+      personalized assistance and prompt solutions.
+    </p>
+    
+    <div class="form-div">
+    
+    <form>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name" />
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name"/>
+      <label for="Email">Email:</label>
+      <input type="text" id="Email" name="Email" placeholder="Your Email"/>
+      <label for="Message"> Message:</label>
+      <textarea name="Message" id=" message" cols="30" rows="10"/></textarea>
+      <input type="submit" value="Submit" />
+    </form>
+    </div>
+    </section>
+
+    <footer id="footer">
+      <p style="font-style: 'Times New Roman' , Times, serif;">Copyright © Team Fantastic IV</p>
+    </footer>
   </body>
 </html>
