@@ -1,5 +1,5 @@
 * {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -148,7 +148,7 @@ li a:hover {
 /* contact-notes */
 #contact-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/fanashhh.png);
+    url(/images/Fantastic-Four-Rise.png);
   background-size: cover;
   background-position: center;
 }
@@ -168,45 +168,52 @@ li a:hover {
   width: 50%;
   border: 3px solid black;
   padding: 10px;
-  
 }
-form {
-  input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    color: black;
-    box-shadow: white; }
+form input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: black;
+  box-shadow: white;
+}
 
-    input[type=text], textarea {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-    }
-    
-    input[type=submit] {
-      background-color: black;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      width: 100%;
-      margin-top: 0;
-    }
-    
-    input[type=submit]:hover {
-      background-color: white;
-    }
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-#contact-body {background-color: white}
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 0;
+}
+.email-p {
+  margin: 20px auto;
+  width: 50%;
+}
 
-h1, p {
+input[type="submit"]:hover {
+  background-color: white;
+}
+
+#contact-body {
+  background-color: white;
+}
+
+.email-section {
+  padding: 40px;
   text-align: center;
 }
