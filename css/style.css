@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 /* index-notes */
+.index-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3, rgba(0, 0, 0, 0.3)),
+    url("/images/fantastic-four-animated-superheroes-poster.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 /* business-hours-notes */
 .business-content {
