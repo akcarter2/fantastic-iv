@@ -14,8 +14,8 @@
   margin-top: 25px;
 }
 .business-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/background-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/fantastic-four.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,10 +72,11 @@ tr:nth-child(even) {
   text-align: center;
   text-shadow: 1px 1px whitesmoke;
   margin-top: 25px;
+  
 }
 #leadership-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/images/leadershipheaderbackgroundpic.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://images.alphacoders.com/112/1125201.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -137,6 +138,7 @@ ul {
   text-align: center;
 }
 
+
 /* Changes the link color on hover */
 li a:hover {
   color: #00a3ff;
@@ -168,14 +170,14 @@ li a:hover {
   border: 3px solid black;
   padding: 10px;
 }
-form input[type="text"] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  color: black;
-  box-shadow: white;
-}
+form {
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    box-shadow: white; }
 
 input[type="text"],
 textarea {
