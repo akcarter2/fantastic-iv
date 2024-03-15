@@ -5,11 +5,18 @@
 }
 /* index-notes */
 .index-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3, rgba(0, 0, 0, 0.3)),
-    url("/images/fantastic-four-animated-superheroes-poster.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://captainzach616.files.wordpress.com/2015/03/437963-superheroes-fantastic-four-rise-of-the-silver-surfer-wallpaper.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  
+}
+.index-content {
+  color: #00a3ff;
+  height: 600px;
+  text-align: center;
+  text-shadow: 1px 1px whitesmoke;
+  margin-top: 25px;
 }
 
 /* business-hours-notes */
