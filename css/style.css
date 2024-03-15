@@ -28,7 +28,7 @@
 }
 
 table {
-  background-color: lightblue;
+  background-color: whitesmoke;
   padding: 50px;
   margin: 20px;
   float: left;
@@ -44,7 +44,7 @@ th {
   padding: 8px;
 }
 .colomn {
-  background-color: #00a3ff;
+  background-color: darkgrey;
 }
 
 tr:nth-child(even) {
