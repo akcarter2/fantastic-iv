@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 /* index-notes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+}
+
 .vt323-regular {
   font-family: "VT323", monospace;
   font-weight: 400;
@@ -35,49 +42,6 @@ video {
     navy
   );
 }
-
-#dream-nav {
-  outline-style: 10px double;
-  border: 2px solid darkblue;
-  border-radius: 10px;
-  width: 75%;
-  padding: 20px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 0;
-  text-align: center;
-  text-emphasis: bold;
-  background-image: linear-gradient(
-    to bottom right,
-    silver,
-    dodgerblue,
-    indigo,
-    navy
-  );
-}
-
-.navlinx {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.navlink {
-  color: black;
-  text-shadow: 0 0 6px dodgerblue;
-  display: inline;
-  margin: 20px;
-  font-size: xx-large;
-  font-weight: 200;
-  font-weight: bolder;
-  font-variant: small-caps;
-}
-
-.navlink:hover {
-  color: dodgerblue;
-  text-shadow: magenta;
-}
-
 .iglesias2nd {
   background-image: linear-gradient(
     to bottom right,
@@ -96,24 +60,16 @@ video {
   text-align: center;
   font-size: 25px;
 }
-ul li {
-  display: inline;
-  margin: 0 15px;
-  color: dodgerblue;
-}
-
 #tabl-services {
   border-collapse: collapse;
   width: 50%;
   border: 5px solid dodgerblue;
   text-align: center;
 }
-
 #tablsrvcs-tagline {
   font-size: 15px;
   text-align: center;
 }
-
 #tabl-services td,
 #tabl-services th {
   border: 1px solid navy;
@@ -123,7 +79,6 @@ ul li {
 #tabl-services tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-
 #tabl-services tr:hover {
   background-color: #ddd;
 }
@@ -145,14 +100,6 @@ ul li {
   background-color: magenta;
   border: 10px dashed black;
 }
-footer {
-  height: 100px;
-  background-color: navy;
-  text-align: center;
-  color: dodgerblue;
-  border: 10px dashed;
-}
-
 div.left {
   border: 2px dashed white;
   height: 100px;
@@ -167,7 +114,12 @@ div.right {
 .float {
   float: right;
 }
-
+span {
+  font-size: 50px;
+  border: 10px dashed magenta;
+  background-color: black;
+  color: magenta;
+}
 
 
 /* business-hours-notes */
