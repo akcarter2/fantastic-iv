@@ -4,20 +4,108 @@
   box-sizing: border-box;
 }
 /* index-notes */
-.index-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("https://captainzach616.files.wordpress.com/2015/03/437963-superheroes-fantastic-four-rise-of-the-silver-surfer-wallpaper.jpg");
+
+.icon {
+  width: 50px;
+  border: 5px dashed silver;
+  border-radius: 50%;
+}
+video {
+  padding: 10px;
+  border: 5px double dodgerblue;
+  border-radius: 25%;
+  float: left;
+}
+
+#dreamr-about {
+  height: 450px;
+  background-color: indigo;
+  color: black;
+  text-shadow: 0 0 10px dodgerblue;
+  background-image: linear-gradient(
+    to bottom,
+    lavender,
+    dodgerblue,
+    indigo,
+    navy
+  );
+}
+.iglesias2nd {
+  background-image: linear-gradient(
+    to bottom right,
+    silver,
+    dodgerblue,
+    indigo,
+    navy
+  );
+
+  height: 550px;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/iu2SwAvae8Vlo3fd55DQiVXMh_E=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/11938131/FF2018001_DC17.jpg");
   background-size: cover;
-  background-position: center;
-  
-}
-.index-content {
-  color: #00a3ff;
-  height: 600px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 700px;
   text-align: center;
-  text-shadow: 1px 1px whitesmoke;
-  margin-top: 25px;
+  font-size: 25px;
 }
+#tabl-services {
+  border-collapse: collapse;
+  width: 50%;
+  border: 5px solid dodgerblue;
+  text-align: center;
+}
+#tablsrvcs-tagline {
+  font-size: 15px;
+  text-align: center;
+}
+#tabl-services td,
+#tabl-services th {
+  border: 1px solid navy;
+  text-align: center;
+}
+
+#tabl-services tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#tabl-services tr:hover {
+  background-color: #ddd;
+}
+
+#tabl-services th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: navy;
+  color: dodgerblue;
+}
+.banner {
+  height: 500px;
+  background-color: magenta;
+}
+
+#contact-section {
+  height: 500px;
+  background-color: magenta;
+  border: 10px dashed black;
+}
+div.left {
+  border: 2px dashed white;
+  height: 100px;
+  width: 100px;
+}
+
+div.right {
+  border: 2px dashed white;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+
+
+
 
 /* business-hours-notes */
 .business-content {
@@ -42,7 +130,7 @@
 }
 
 table {
-  background-color: lightblue;
+  background-color: whitesmoke;
   padding: 50px;
   margin: 20px;
   float: left;
@@ -58,7 +146,7 @@ th {
   padding: 8px;
 }
 .colomn {
-  background-color: #00a3ff;
+  background-color: darkgrey;
 }
 
 tr:nth-child(even) {
