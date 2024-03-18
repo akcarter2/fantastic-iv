@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 /* index-notes */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "VT323", monospace;
-}
-
 .vt323-regular {
   font-family: "VT323", monospace;
   font-weight: 400;
@@ -174,12 +167,7 @@ div.right {
 .float {
   float: right;
 }
-span {
-  font-size: 50px;
-  border: 10px dashed magenta;
-  background-color: black;
-  color: magenta;
-}
+
 
 
 /* business-hours-notes */
