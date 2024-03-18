@@ -29,7 +29,11 @@ video {
   float: left;
 }
 
+#dreamr-abttl {
+  font-size: 48px;
+}
 #dreamr-about {
+  text-align: center;
   height: 450px;
   background-color: indigo;
   color: black;
@@ -47,7 +51,7 @@ video {
   outline-style: 10px double;
   border: 2px solid darkblue;
   border-radius: 10px;
-  width: 75%;
+  width: auto;
   padding: 20px;
   margin: auto;
   margin-top: 20px;
@@ -103,21 +107,33 @@ video {
   text-align: center;
   font-size: 25px;
 }
-ul li {
+.navlinx li {
   display: inline;
   margin: 0 15px;
   color: dodgerblue;
 }
-
+#dreamr-services {
+  height: 300px;
+  text-align: center;
+  background-color: navy;
+  margin-left: auto;
+  margin-right: auto;
+}
 #tabl-services {
   border-collapse: collapse;
   width: 50%;
   border: 5px solid dodgerblue;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tablsrvcs-ttl {
+  font-size: 48px;
 }
 
 #tablsrvcs-tagline {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -127,12 +143,12 @@ ul li {
   text-align: center;
 }
 
-#tabl-services tr:nth-child(even) {
-  background-color: #f2f2f2;
+#tabl-services tr:nth-child(odd) {
+  background-color: blue;
 }
 
 #tabl-services tr:hover {
-  background-color: #ddd;
+  background-color: dodgerblue;
 }
 
 #tabl-services th {
@@ -142,9 +158,16 @@ ul li {
   background-color: navy;
   color: dodgerblue;
 }
-.banner {
-  height: 500px;
-  background-color: magenta;
+
+.clickr {
+  font-size: x-large;
+  color: navy;
+  background-color: navy;
+  text-shadow: 0 0 5px dodgerblue;
+  border-radius: 50%;
+  border: 4px solid navy;
+  padding: 2px;
+  margin: 0;
 }
 
 #contact-section {
@@ -152,12 +175,14 @@ ul li {
   background-color: magenta;
   border: 10px dashed black;
 }
-footer {
-  height: 100px;
-  background-color: navy;
+.footr {
+  height: 80px;
+  background-color: black;
   text-align: center;
   color: dodgerblue;
-  border: 10px dashed;
+  padding: 5px;
+  border-radius: 10px;
+  border: 7px solid navy;
 }
 
 div.left {
@@ -180,7 +205,6 @@ span {
   background-color: black;
   color: magenta;
 }
-
 
 /* business-hours-notes */
 .business-content {
@@ -249,7 +273,6 @@ tr:nth-child(even) {
   text-align: center;
   text-shadow: 1px 1px whitesmoke;
   margin-top: 25px;
-  
 }
 #leadership-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -315,7 +338,6 @@ ul {
   text-align: center;
 }
 
-
 /* Changes the link color on hover */
 li a:hover {
   color: #00a3ff;
@@ -347,14 +369,15 @@ li a:hover {
   padding: 10px;
 }
 form {
-  input[type=text] {
+  input[type="text"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     color: black;
-    box-shadow: white; }
+    box-shadow: white;
   }
+}
 input[type="text"],
 textarea {
   width: 100%;
