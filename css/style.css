@@ -18,6 +18,7 @@ video {
 }
 #dreamr-abttl {
   font-size: 48px;}
+  
 
 #dreamr-about {
   height: 450px;
@@ -118,7 +119,7 @@ div.right {
 
 
 /* business-hours-notes */
-.business-content {
+.business-content, .index-content {
   color: #00a3ff;
   height: 600px;
   text-align: center;
