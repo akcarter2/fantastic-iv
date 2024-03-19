@@ -55,7 +55,7 @@ video {
   );
 
   height: 550px;
-  background-image: url("https://cdn.vox-cdn.com/thumbor/iu2SwAvae8Vlo3fd55DQiVXMh_E=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/11938131/FF2018001_DC17.jpg");
+  background-image: url("/images/Fantastic-Four-Rise.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
