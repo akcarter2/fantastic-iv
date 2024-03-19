@@ -4,19 +4,13 @@
   box-sizing: border-box;
 }
 /* index-notes */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "VT323", monospace;
+.index-content {
+  color: #00a3ff;
+  height: 600px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin-top: 25px;
 }
-
-.vt323-regular {
-  font-family: "VT323", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .icon {
   width: 50px;
   border: 5px dashed silver;
@@ -29,8 +23,13 @@ video {
   float: left;
 }
 #dreamr-abttl {
-  font-size: 48px;}
-  
+  font-size: 48px;
+text-align: center;}
+  .clickr {
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
 
 #dreamr-about {
   height: 450px;
@@ -61,12 +60,12 @@ video {
   background-position: bottom;
   height: 700px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 #dreamr-services {
   height: 300px;
   text-align: center;
-  background-color: navy;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;}
 
@@ -76,9 +75,12 @@ video {
   border: 5px solid dodgerblue;
   text-align: center;
   
+    
+  
+  
 }
 #tablsrvcs-ttl {
-  font-size: 48px;
+  font-size: 30px;
 }
 #tablsrvcs-tagline {
   font-size: 20px;
@@ -122,19 +124,11 @@ div.right {
   height: 100px;
   width: 100px;
 }
-.float {
-  float: right;
-}
-span {
-  font-size: 50px;
-  border: 10px dashed magenta;
-  background-color: black;
-  color: magenta;
-}
+
 
 
 /* business-hours-notes */
-.business-content, .index-content {
+.business-content {
   color: #00a3ff;
   height: 600px;
   text-align: center;
