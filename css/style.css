@@ -122,15 +122,7 @@ div.right {
   height: 100px;
   width: 100px;
 }
-.float {
-  float: right;
-}
-span {
-  font-size: 50px;
-  border: 10px dashed magenta;
-  background-color: black;
-  color: magenta;
-}
+
 
 
 /* business-hours-notes */
