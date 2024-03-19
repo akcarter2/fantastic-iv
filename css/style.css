@@ -16,6 +16,9 @@ video {
   border-radius: 25%;
   float: left;
 }
+#dreamr-abttl {
+  font-size: 48px;}
+  
 
 #dreamr-about {
   height: 450px;
@@ -48,14 +51,25 @@ video {
   text-align: center;
   font-size: 25px;
 }
+#dreamr-services {
+  height: 300px;
+  text-align: center;
+  background-color: navy;
+  margin-left: auto;
+  margin-right: auto;}
+
 #tabl-services {
   border-collapse: collapse;
   width: 50%;
   border: 5px solid dodgerblue;
   text-align: center;
+  
+}
+#tablsrvcs-ttl {
+  font-size: 48px;
 }
 #tablsrvcs-tagline {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 #tabl-services td,
@@ -64,24 +78,21 @@ video {
   text-align: center;
 }
 
-#tabl-services tr:nth-child(even) {
-  background-color: #f2f2f2;
+#tabl-services tr:nth-child(odd) {
+  background-color: #00a3ff;
 }
 #tabl-services tr:hover {
-  background-color: #ddd;
+  background-color: dodgerblue;
 }
 
 #tabl-services th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: navy;
-  color: dodgerblue;
+  background-color:#00a3ff;
+  color:#344ccc;
 }
-.banner {
-  height: 500px;
-  background-color: magenta;
-}
+
 
 #contact-section {
   height: 500px;
@@ -108,7 +119,7 @@ div.right {
 
 
 /* business-hours-notes */
-.business-content {
+.business-content, .index-content {
   color: #00a3ff;
   height: 600px;
   text-align: center;
