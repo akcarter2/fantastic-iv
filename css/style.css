@@ -196,7 +196,7 @@ tr:nth-child(even) {
 }
 #leadership-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://images.alphacoders.com/112/1125201.jpg);
+    url(../images/alphas.jpg);
   background-size: cover;
   background-position: center;
 }
