@@ -277,9 +277,10 @@ li a:hover {
 /* contact-notes */
 #contact-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/Fantastic-Four-Rise.png);
-  background-size: cover;
+    url(/images/fan.wall.44.png);
+  background-size: contain;
   background-position: center;
+  
 }
 .contact-content {
   color: #00a3ff;
@@ -291,11 +292,12 @@ li a:hover {
 
 .form-div {
   border-radius: 5px;
-  background-color: gainsboro;
+  background-color: darkgrey;
   margin: auto;
   width: 50%;
   border: 1px solid black;
   padding: 10px;
+  color: white;
 }
 form {
   input[type=text] {
@@ -303,8 +305,8 @@ form {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    color: black;
-    box-shadow: white; }
+    color: white;
+    box-shadow:white; }
   }
 input[type="text"],
 textarea {
@@ -335,6 +337,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: white;
+  color: black;
 }
 
 #contact-body {
@@ -343,8 +346,10 @@ input[type="submit"]:hover {
 
 .email-section {
   padding: 40px;
-  text-align: center;
+  text-align: auto;
 }
 #email-title {
   text-align: center;
 }
+
+
