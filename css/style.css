@@ -54,7 +54,7 @@ text-align: center;}
   );
 
   height: 550px;
-  background-image: url("/images/Fantastic-Four-Rise.png");
+  background-image: url("images/Fantastic-Four-Rise.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
