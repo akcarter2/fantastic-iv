@@ -4,18 +4,6 @@
   box-sizing: border-box;
 }
 /* index-notes */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "VT323", monospace;
-}
-
-.vt323-regular {
-  font-family: "VT323", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .icon {
   width: 50px;
@@ -28,6 +16,8 @@ video {
   border-radius: 25%;
   float: left;
 }
+#dreamr-abttl {
+  font-size: 48px;}
 
 #dreamr-abttl {
   font-size: 48px;
@@ -46,49 +36,6 @@ video {
     navy
   );
 }
-
-#dream-nav {
-  outline-style: 10px double;
-  border: 2px solid darkblue;
-  border-radius: 10px;
-  width: auto;
-  padding: 20px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 0;
-  text-align: center;
-  text-emphasis: bold;
-  background-image: linear-gradient(
-    to bottom right,
-    silver,
-    dodgerblue,
-    indigo,
-    navy
-  );
-}
-
-.navlinx {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.navlink {
-  color: black;
-  text-shadow: 0 0 6px dodgerblue;
-  display: inline;
-  margin: 20px;
-  font-size: xx-large;
-  font-weight: 200;
-  font-weight: bolder;
-  font-variant: small-caps;
-}
-
-.navlink:hover {
-  color: dodgerblue;
-  text-shadow: magenta;
-}
-
 .iglesias2nd {
   background-image: linear-gradient(
     to bottom right,
@@ -107,36 +54,27 @@ video {
   text-align: center;
   font-size: 25px;
 }
-.navlinx li {
-  display: inline;
-  margin: 0 15px;
-  color: dodgerblue;
-}
 #dreamr-services {
   height: 300px;
   text-align: center;
   background-color: navy;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto;}
+
 #tabl-services {
   border-collapse: collapse;
   width: 50%;
   border: 5px solid dodgerblue;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
-
 #tablsrvcs-ttl {
   font-size: 48px;
 }
-
 #tablsrvcs-tagline {
   font-size: 20px;
   text-align: center;
 }
-
 #tabl-services td,
 #tabl-services th {
   border: 1px solid navy;
@@ -144,9 +82,8 @@ video {
 }
 
 #tabl-services tr:nth-child(odd) {
-  background-color: blue;
+  background-color: #00a3ff;
 }
-
 #tabl-services tr:hover {
   background-color: dodgerblue;
 }
@@ -155,36 +92,16 @@ video {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: navy;
-  color: dodgerblue;
+  background-color:#00a3ff;
+  color:#344ccc;
 }
 
-.clickr {
-  font-size: x-large;
-  color: navy;
-  background-color: navy;
-  text-shadow: 0 0 5px dodgerblue;
-  border-radius: 50%;
-  border: 4px solid navy;
-  padding: 2px;
-  margin: 0;
-}
 
 #contact-section {
   height: 500px;
   background-color: magenta;
   border: 10px dashed black;
 }
-.footr {
-  height: 80px;
-  background-color: black;
-  text-align: center;
-  color: dodgerblue;
-  padding: 5px;
-  border-radius: 10px;
-  border: 7px solid navy;
-}
-
 div.left {
   border: 2px dashed white;
   height: 100px;
@@ -196,15 +113,13 @@ div.right {
   height: 100px;
   width: 100px;
 }
-.float {
-  float: right;
-}
-span {
-  font-size: 50px;
-  border: 10px dashed magenta;
-  background-color: black;
-  color: magenta;
-}
+
+
+
+
+
+
+
 
 /* business-hours-notes */
 .business-content {
