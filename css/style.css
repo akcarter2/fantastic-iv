@@ -269,7 +269,7 @@ li a:hover {
 /* contact-notes */
 #contact-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/fan.wall.44.png);
+    url(../images/fan.wall.44.png);
   background-size: contain;
   background-position: center;
   
