@@ -24,16 +24,17 @@ video {
 }
 #dreamr-abttl {
   font-size: 48px;
-text-align: center;}
-  .clickr {
-    text-align: center;
-    display: block;
-    margin: auto;
-  }
+  text-align: center;
+}
+.clickr {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
 
 #dreamr-about {
   text-align: center;
-  height: 450px;
+  height: 475px;
   background-color: indigo;
   color: black;
   text-shadow: 0 0 10px dodgerblue;
@@ -51,9 +52,14 @@ text-align: center;}
     silver,
     dodgerblue,
     indigo,
-    navy
+    navy,
+    indigo,
   );
-
+iframe {
+  border-radius: 25%;
+  border: 0 double dodgerblue;
+  padding: 20px;
+}
   height: 550px;
   background-image: url("../images/Fantastic-Four-Rise.png");
   background-size: cover;
@@ -66,9 +72,10 @@ text-align: center;}
 #dreamr-services {
   height: 300px;
   text-align: center;
-  background-color: white;
+  background-color: indigo;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
 
 #tabl-services {
   border-collapse: collapse;
@@ -77,7 +84,7 @@ text-align: center;}
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
-  }
+}
 #tablsrvcs-ttl {
   font-size: 30px;
 }
@@ -102,10 +109,9 @@ text-align: center;}
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color:#00a3ff;
-  color:#344ccc;
+  background-color: #00a3ff;
+  color: #344ccc;
 }
-
 
 #contact-section {
   height: 500px;
@@ -123,8 +129,6 @@ div.right {
   height: 100px;
   width: 100px;
 }
-
-
 
 /* business-hours-notes */
 .business-content {
@@ -271,7 +275,6 @@ li a:hover {
     url(../images/fan.wall.44.png);
   background-size: contain;
   background-position: center;
-  
 }
 .contact-content {
   color: #00a3ff;
@@ -297,8 +300,9 @@ form {
     margin: 8px 0;
     box-sizing: border-box;
     color: white;
-    box-shadow:white; }
+    box-shadow: white;
   }
+}
 input[type="text"],
 textarea {
   width: 100%;
@@ -342,5 +346,3 @@ input[type="submit"]:hover {
 #email-title {
   text-align: center;
 }
-
-
