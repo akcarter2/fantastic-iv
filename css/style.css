@@ -105,7 +105,9 @@ text-align: center;}
   background-color:#00a3ff;
   color:#344ccc;
 }
-
+.about-copy {
+  color: ghostwhite;
+}
 
 #contact-section {
   height: 500px;
