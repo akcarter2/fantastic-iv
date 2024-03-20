@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 /* index-notes */
-
+.index-content {
+  color: #00a3ff;
+  height: 600px;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin-top: 25px;
+}
 .icon {
   width: 50px;
   border: 5px dashed silver;
@@ -17,11 +23,14 @@ video {
   float: left;
 }
 #dreamr-abttl {
-  font-size: 48px;}
-
-#dreamr-abttl {
   font-size: 48px;
-}
+text-align: center;}
+  .clickr {
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+
 #dreamr-about {
   text-align: center;
   height: 450px;
@@ -46,18 +55,18 @@ video {
   );
 
   height: 550px;
-  background-image: url("https://cdn.vox-cdn.com/thumbor/iu2SwAvae8Vlo3fd55DQiVXMh_E=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/11938131/FF2018001_DC17.jpg");
+  background-image: url("../images/Fantastic-Four-Rise.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 700px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 #dreamr-services {
   height: 300px;
   text-align: center;
-  background-color: navy;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;}
 
@@ -66,10 +75,11 @@ video {
   width: 50%;
   border: 5px solid dodgerblue;
   text-align: center;
-  
-}
+  margin-left: 25%;
+  margin-right: 25%;
+  }
 #tablsrvcs-ttl {
-  font-size: 48px;
+  font-size: 30px;
 }
 #tablsrvcs-tagline {
   font-size: 20px;
@@ -116,11 +126,6 @@ div.right {
 
 
 
-
-
-
-
-
 /* business-hours-notes */
 .business-content {
   color: #00a3ff;
@@ -131,7 +136,7 @@ div.right {
 }
 .business-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/fantastic-four.jpg");
+    url("../images/fantastic-four.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -191,7 +196,7 @@ tr:nth-child(even) {
 }
 #leadership-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://images.alphacoders.com/112/1125201.jpg);
+    url(../images/alphas.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -263,9 +268,10 @@ li a:hover {
 /* contact-notes */
 #contact-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/images/Fantastic-Four-Rise.png);
-  background-size: cover;
+    url(../images/fan.wall.44.png);
+  background-size: contain;
   background-position: center;
+  
 }
 .contact-content {
   color: #00a3ff;
@@ -277,11 +283,12 @@ li a:hover {
 
 .form-div {
   border-radius: 5px;
-  background-color: gainsboro;
+  background-color: darkgrey;
   margin: auto;
   width: 50%;
   border: 1px solid black;
   padding: 10px;
+  color: white;
 }
 form {
   input[type="text"] {
@@ -289,10 +296,9 @@ form {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    color: black;
-    box-shadow: white;
+    color: white;
+    box-shadow:white; }
   }
-}
 input[type="text"],
 textarea {
   width: 100%;
@@ -322,6 +328,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: white;
+  color: black;
 }
 
 #contact-body {
@@ -330,8 +337,10 @@ input[type="submit"]:hover {
 
 .email-section {
   padding: 40px;
-  text-align: center;
+  text-align: auto;
 }
 #email-title {
   text-align: center;
 }
+
+
